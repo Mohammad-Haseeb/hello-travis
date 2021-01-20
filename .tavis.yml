@@ -10,7 +10,7 @@ script:
 deploy: 
   provider: surge
   skip_cleanup: true
-  domain: addief.surge.sh
+  domain: addief.surge.sh/
   project: ./build/
 
 on:
